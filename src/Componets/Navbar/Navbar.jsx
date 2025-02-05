@@ -53,7 +53,7 @@ const Navbar = () => {
                 <li key={Menu.id}>
                   <a
                     href={Menu.link}
-                    className="inline-block py-2 px-3 hover:text-secondary hover:font-semibold relative group"
+                    className="inline-block py-2 px-3 hover:text-secondary hover:scale-110 duration-200 relative group"
                   >
                     <div className="w-2 h-2 bg-secondary absolute mt-2 rounded-full left-1/2 -translate-x-1/2 top-1/2 bottom-0 group-hover:block hidden"></div>
                     {Menu.name}

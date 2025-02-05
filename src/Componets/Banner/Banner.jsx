@@ -58,7 +58,7 @@ const Banner = () => {
                 initial="initial"
                 whileInView={"animate"}
                 viewport={{ once: true }}
-                className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
+                className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white hover:text-secondary duration-300 hover:shadow-2xl"
               >
                 <FaBookReader className="text-2xl" />
                 <p className="text-lg">10,000+ Courses</p>
@@ -68,7 +68,7 @@ const Banner = () => {
                 initial="initial"
                 whileInView={"animate"}
                 viewport={{ once: true }}
-                className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
+                className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white hover:text-secondary duration-300 hover:shadow-2xl"
               >
                 <GrUserExpert className="text-2xl" />
                 <p className="text-lg">Expert Instruction</p>
@@ -78,7 +78,7 @@ const Banner = () => {
                 initial="initial"
                 whileInView={"animate"}
                 viewport={{ once: true }}
-                className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
+                className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white hover:text-secondary duration-300 hover:shadow-2xl"
               >
                 <MdOutlineAccessTime className="text-2xl" />
                 <p className="text-lg">Lifetime Access</p>

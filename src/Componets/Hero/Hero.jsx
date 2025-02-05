@@ -2,6 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import Blod from "../../assets/blob.svg";
 import HeroPng from "../../assets/hero.png"
 import { motion } from "motion/react";
+import Navbar from "../Navbar/Navbar";
 
 const FadeUp = (delay) => {
     return {
@@ -28,7 +29,7 @@ const Hero = () => {
   return (
     <>
       <section className="bg-light overflow-hidden relative" id="Hero">
-        
+        <Navbar/>
         <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
           {/* Brand Info  */}
           <div className="flex-col flex justify-center py-14 md:py-0 relative z-20">
